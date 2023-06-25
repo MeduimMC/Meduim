@@ -1,0 +1,6 @@
+/src/main/
+/build/
+/.idea/
+/.gradle/
+/gradle/
+/run/
