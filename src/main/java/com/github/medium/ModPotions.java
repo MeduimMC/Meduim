@@ -11,5 +11,5 @@ public class ModPotions {
     public static final DeferredRegister<MobEffect> EFFECTS = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, Medium.MODID);
     public static final DeferredRegister<Potion> POTIONS = DeferredRegister.create(ForgeRegistries.POTIONS, Medium.MODID);
 
-    public static final RegistryObject<MobEffect> FLIGHT_EFFECT = EFFECTS.register("FLIGHT", FlightEffect::new);
+    public static final RegistryObject<MobEffect> FLIGHT_EFFECT = EFFECTS.register("flight", FlightEffect::new);
 }
