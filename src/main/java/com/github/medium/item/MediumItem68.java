@@ -1,6 +1,6 @@
 package com.github.medium.item;
 
-import com.github.medium.ItemMeduim;
+import com.github.medium.ItemMedium;
 import com.google.common.collect.Collections2;
 import com.google.common.collect.Lists;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -11,7 +11,7 @@ import net.minecraft.world.item.ItemStack;
 
 import java.util.List;
 
-public class MediumItem68 extends ItemMeduim {
+public class MediumItem68 extends ItemMedium {
     public MediumItem68(Properties properties) {
         super(properties);
     }

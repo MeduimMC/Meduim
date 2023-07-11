@@ -1,19 +1,16 @@
 package com.github.medium.item;
 
-import com.github.medium.ItemMeduim;
+import com.github.medium.ItemMedium;
 import com.google.common.collect.Multimap;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.registries.ForgeRegistries;
 import top.theillusivec4.curios.api.SlotContext;
 
 import java.util.UUID;
 
-public class MediumItem35 extends ItemMeduim {
+public class MediumItem35 extends ItemMedium {
     public MediumItem35(Properties properties) {
         super(properties);
     }

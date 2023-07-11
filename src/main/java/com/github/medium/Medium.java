@@ -33,6 +33,8 @@ public class Medium {
         BlocksAndItems.BLOCK.register(modEventBus);
         BlocksAndItems.ITEM.register(modEventBus);
         BlocksAndItems.BLOCK_ENTITIES.register(modEventBus);
+        ModPotions.EFFECTS.register(modEventBus);
+        ModPotions.POTIONS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
 
         // Register ourselves for server and other game events we are interested in

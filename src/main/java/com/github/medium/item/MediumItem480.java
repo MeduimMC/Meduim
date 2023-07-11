@@ -1,6 +1,7 @@
 package com.github.medium.item;
 
-import com.github.medium.ItemMeduim;
+
+import com.github.medium.ItemMedium;
 import com.github.medium.Medium;
 import com.github.medium.events.CurioHelper;
 import net.minecraft.tags.BlockTags;
@@ -16,7 +17,7 @@ import net.minecraftforge.fml.common.Mod;
 
 import java.util.Random;
 @Mod.EventBusSubscriber(modid = Medium.MODID)
-public class MediumItem480 extends ItemMeduim {
+public class MediumItem480 extends ItemMedium {
     public MediumItem480(Properties properties) {
         super(properties);
     }
