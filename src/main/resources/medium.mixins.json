@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.medium.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "sunken_world.refmap.json",
+  "mixins": [
+    "MixinCreeper",
+    "MixinSpider"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
