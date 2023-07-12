@@ -6,7 +6,8 @@
   "refmap": "sunken_world.refmap.json",
   "mixins": [
     "MixinCreeper",
-    "MixinSpider"
+    "MixinSpider",
+    "MixinEnchantmentHelper"
   ],
   "injectors": {
     "defaultRequire": 1

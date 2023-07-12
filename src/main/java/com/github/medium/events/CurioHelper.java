@@ -1,5 +1,6 @@
 package com.github.medium.events;
 
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import org.apache.commons.lang3.tuple.Triple;
@@ -17,9 +18,11 @@ import java.util.function.Predicate;
 
 public class CurioHelper {
     @Nullable
-    public static Triple<String, Integer, ItemStack> findAnyItem(LivingEntity entity, Predicate<ItemStack> stackPredicate) {
+    public static Triple<String, Integer, ItemStack> findAnyItem(Entity entity, Predicate<ItemStack> stackPredicate) {
         AtomicReference<Triple<String, Integer, ItemStack>> stack = new AtomicReference<>(null);
-        CuriosApi.getCuriosHelper().getCuriosHandler(entity).ifPresent(iCuriosItemHandler -> {
+        if(!(entity instanceof LivingEntity)) return stack.get();
+
+        CuriosApi.getCuriosHelper().getCuriosHandler((LivingEntity) entity).ifPresent(iCuriosItemHandler -> {
             for (Map.Entry<String, ICurioStacksHandler> stringICurioStacksHandlerEntry : iCuriosItemHandler.getCurios().entrySet()) {
                 IDynamicStackHandler stacks = stringICurioStacksHandlerEntry.getValue().getStacks();
                 for (int i = 0; i < stacks.getSlots(); i++) {

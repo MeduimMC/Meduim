@@ -25,4 +25,6 @@ public class BlocksAndItems {
     public static final RegistryObject<Item> Medium35 = ITEM.register("medium35", () -> new MediumItem35(new Item.Properties()));
     public static final RegistryObject<Item> Medium258 = ITEM.register("medium258", () -> new MediumItem258(new Item.Properties()));
     public static final RegistryObject<Item> Medium165 = ITEM.register("medium165", () -> new MediumItem165(new Item.Properties()));
+    public static final RegistryObject<Item> Medium689 = ITEM.register("medium689", () -> new MediumItem689(new Item.Properties()));
+    public static final RegistryObject<Item> Medium666 = ITEM.register("medium666", () -> new MediumItem666(new Item.Properties()));
 }
