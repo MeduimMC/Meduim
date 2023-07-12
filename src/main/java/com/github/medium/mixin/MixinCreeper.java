@@ -36,7 +36,7 @@ public abstract class MixinCreeper extends Monster {
      * @author
      * @reason
      */
-    @Inject(method = "registerGoals", at = @At("HEAD"))
+    @Inject(method = "registerGoals", at = @At("HEAD"),remap = false)
     protected void registerGoals(CallbackInfo ci) {
         goalSelector.addGoal(1, new AvoidEntityGoal<Player>(this, Player.class, 6.0F, 1.0D, 1.2D,
                         livingEntity -> CurioHelper
