@@ -2,8 +2,6 @@ package com.github.medium.item;
 
 import com.github.medium.ItemMedium;
 import com.github.medium.events.CurioHelper;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.damagesource.DamageSources;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
