@@ -1,0 +1,41 @@
+{
+  "item.medium.medium08": "Medium 08",
+  "tooltip.medium_item08.desc":"未知的调味品,撒上几粒便可以赋予食物独特的风味",
+  "tooltip.medium_item08_1.desc":"食物可以提供额外的饱食度",
+  "tooltip.medium_item08_2.desc":"精神值占用：4",
+  
+  "item.medium.medium35": "Medium 35",
+  "tooltip.medium_item35.desc":"只要穿上这个,今年你就百毒不侵,身体倍棒！",
+  "tooltip.medium_item35_1.desc":" +5护甲,苦力怕和蜘蛛会远离你 ",
+  "tooltip.medium_item35_2.desc":" 精神值占用：4",
+  
+   "item.medium.medium68": "Medium 68",
+  "tooltip.medium_item68.desc":" 在柜子里面放了一年的,腊八蒜？看起来味道不错",
+  "tooltip.medium_item68_1.desc":"免疫中毒,反胃",
+  "tooltip.medium_item68_2.desc":" 精神值占用：2 ",
+  
+   "item.medium.medium165": "Medium 165",
+  "tooltip.medium_item165.desc":" 处于无风的封闭室内火焰依旧不停晃动,夜晚时炽红的火焰便变成幽蓝色",
+  "tooltip.medium_item165_1.desc":"免疫黑暗,失明；白天时会受到伤害",
+  "tooltip.medium_item165_2.desc":"精神值占用：3",
+  
+   "item.medium.medium258": "Medium 258",
+  "tooltip.medium_item258.desc":"“接触者在接触物品后可以在一定时间内控制身体的移动” ",
+  "tooltip.medium_item258_1.desc":"获得飞行效果",
+  "tooltip.medium_item258_2.desc":"精神值占用：8",
+  
+   "item.medium.medium480": "Medium 480",
+  "tooltip.medium_item480.desc":" 根据接触者的描述,捡到这枚硬币时上面残留着半颗牙齿",
+  "tooltip.medium_item480_1.desc":"你会变的更加幸运",
+  "tooltip.medium_item480_2.desc":"精神值占用：5 ",
+   
+   "item.medium.medium666": "Medium 666",
+  "tooltip.medium_item666.desc":"一副使用的过泳镜,接触者会获得极高的水性和游泳技术",
+  "tooltip.medium_item666_1.desc":" 游泳速度增加50%,氧气消耗减少50% ",
+  "tooltip.medium_item666_2.desc":" 精神值占用：4 ",
+   
+   "item.medium.medium689": "Medium 689",
+  "tooltip.medium_item689.desc":"“可以吸收附近所有的热源能量,即使接触者处于岩浆中,似乎看起来很美味”",
+  "tooltip.medium_item689_1.desc":" 免疫火焰伤害",
+  "tooltip.medium_item689_2.desc":"精神值占用：4"
+}

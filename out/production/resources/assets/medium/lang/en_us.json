@@ -1,0 +1,41 @@
+{
+  "item.medium.medium08": "Medium 08",
+  "tooltip.medium_item08.desc": "Unknown seasoning that adds a unique flavor to food when sprinkled with a few grains",
+  "tooltip.medium_item08_1.desc": "Provides additional satiety to food",
+  "tooltip.medium_item08_2.desc": "Mental value consumption: 4",
+
+  "item.medium.medium35": "Medium 35",
+  "tooltip.medium_item35.desc": "As long as you wear this, you'll be immune to all poisons and have a strong body this year!",
+  "tooltip.medium_item35_1.desc": "+5 armor, creepers and spiders will stay away from you",
+  "tooltip.medium_item35_2.desc": "Mental value consumption: 4",
+
+  "item.medium.medium68": "Medium 68",
+  "tooltip.medium_item68.desc": "Stored in the cabinet for a year, garlic? It looks tasty",
+  "tooltip.medium_item68_1.desc": "Immunity to poisoning and nausea",
+  "tooltip.medium_item68_2.desc": "Mental value consumption: 2",
+
+  "item.medium.medium165": "Medium 165",
+  "tooltip.medium_item165.desc": "Flames continue to flicker in a windless enclosed room, and at night the fiery red flames turn into a deep blue",
+  "tooltip.medium_item165_1.desc": "Immunity to darkness and blindness; takes damage during the day",
+  "tooltip.medium_item165_2.desc": "Mental value consumption: 3",
+
+  "item.medium.medium258": "Medium 258",
+  "tooltip.medium_item258.desc": "Allows the user to control their body's movement for a certain period of time after touching the item",
+  "tooltip.medium_item258_1.desc": "Grants the ability to fly",
+  "tooltip.medium_item258_2.desc": "Mental value consumption: 8",
+
+  "item.medium.medium480": "Medium 480",
+  "tooltip.medium_item480.desc": "According to the user's description, the coin was found with half a tooth embedded in it",
+  "tooltip.medium_item480_1.desc": "Makes you more lucky",
+  "tooltip.medium_item480_2.desc": "Mental value consumption: 5",
+
+  "item.medium.medium666": "Medium 666",
+  "tooltip.medium_item666.desc": "A pair of used goggles that grants the user exceptional water affinity and swimming skills",
+  "tooltip.medium_item666_1.desc": "50% increase in swimming speed, 50% reduction in oxygen consumption",
+  "tooltip.medium_item666_2.desc": "Mental value consumption: 4",
+
+  "item.medium.medium689": "Medium 689",
+  "tooltip.medium_item689.desc": "Absorbs all nearby thermal energy sources, even if the user is in magma, it looks delicious",
+  "tooltip.medium_item689_1.desc": "Immunity to fire damage",
+  "tooltip.medium_item689_2.desc": "Mental value consumption: 4"
+}

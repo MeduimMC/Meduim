@@ -1,5 +1,6 @@
 package com.github.medium;
 
+//import com.github.medium.datagen.DAtaGenerator;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -35,6 +36,7 @@ public class Medium {
         BlocksAndItems.BLOCK_ENTITIES.register(modEventBus);
         ModPotions.EFFECTS.register(modEventBus);
         ModPotions.POTIONS.register(modEventBus);
+ //       modEventBus.addListener(DAtaGenerator::generate);
         // Register the Deferred Register to the mod event bus so tabs get registered
 
         // Register ourselves for server and other game events we are interested in
