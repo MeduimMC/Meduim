@@ -42,12 +42,11 @@ public class MediumItem08 extends ItemMedium {
     }
     @OnlyIn(Dist.CLIENT)
     @Override
-    public void appendHoverText(@NotNull ItemStack stack, @Nullable Level worldIn, List<Component> tooltip, @NotNull TooltipFlag flagIn)
+    public void appendHoverText(@NotNull ItemStack stack, @Nullable Level worldIn, List<Component> p_41423_, @NotNull TooltipFlag flagIn)
     {
-        tooltip.add(Component.translatable(
-                I18n.get("tooltip.medium_item08.desc"
-                        + " " + "tooltip.medium_item08_1.desc"
-                        + " " + "tooltip.medium_item08_2.desc")));
+        p_41423_.add(Component.translatable("tooltip.medium_item08.desc"));
+        p_41423_.add(Component.translatable("tooltip.medium_item08_1.desc"));
+        p_41423_.add(Component.translatable("tooltip.medium_item08_2.desc"));
     }
 
 }
