@@ -212,8 +212,11 @@ dependencies {
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}")
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}")
     // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}")
-    runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}")
-    compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}:api")
+    runtimeOnly fg.deobf("curse.maven:curios-309927:4583413")
+    compileOnly fg.deobf("curse.maven:curios-309927:4583413-api")
+
+   // runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}")
+    //compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}:api")
 
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
